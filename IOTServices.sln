@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "IOTServices", "IOTServices\IOTServices.ccproj", "{DE0F7AF5-F630-4503-852E-F19B30F818C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTServiceWeb", "IOTServiceWeb\IOTServiceWeb.csproj", "{53BE3C86-8F29-48B9-8306-C9F5BCCFE96F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOTServiceBLL", "IOTServiceCore\IOTServiceBLL.csproj", "{6BE11DF8-63B4-4345-B95E-04987FBA15A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0F7AF5-F630-4503-852E-F19B30F818C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0F7AF5-F630-4503-852E-F19B30F818C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0F7AF5-F630-4503-852E-F19B30F818C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0F7AF5-F630-4503-852E-F19B30F818C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BE3C86-8F29-48B9-8306-C9F5BCCFE96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BE3C86-8F29-48B9-8306-C9F5BCCFE96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BE3C86-8F29-48B9-8306-C9F5BCCFE96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BE3C86-8F29-48B9-8306-C9F5BCCFE96F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE11DF8-63B4-4345-B95E-04987FBA15A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE11DF8-63B4-4345-B95E-04987FBA15A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE11DF8-63B4-4345-B95E-04987FBA15A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE11DF8-63B4-4345-B95E-04987FBA15A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
